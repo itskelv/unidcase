@@ -18,10 +18,10 @@ def get_baseline_params():
         'net_type': 'SELDnet',
 
         # data params
-        'root_dir': '/root/CODE/DCASE_2025_task3/DCASE2025_DATASET',  # parent directory containing the audio, video and labels directory
-        'feat_dir': '/root/CODE/DCASE_2025_task3/2025_my_pretrained/features',  # store extracted features here
-        'HTS_AT_pretrained_dir': '/root/CODE/DCASE_2025_task3/2025_my_pretrained/PSELD_pretrained_ckpts/mACCDOA-HTSAT-0.567.ckpt',
-        'CNN14_Conformer_pretrained_dir': '/root/CODE/DCASE_2025_task3/2025_my_pretrained/PSELD_pretrained_ckpts/mACCDOA-CNN14-Conformer-0.582.ckpt',
+        'root_dir': './Unified_DCASE/DCASE_FOA_DATASET',  # parent directory containing the audio, video and labels directory
+        'feat_dir': './Unified_DCASE/2025_my_pretrained/features',  # store extracted features here
+        'HTS_AT_pretrained_dir': './Unified_DCASE/2025_my_pretrained/PSELD_pretrained_ckpts/mACCDOA-HTSAT-0.567.ckpt',
+        'CNN14_Conformer_pretrained_dir': './Unified_DCASE/2025_my_pretrained/PSELD_pretrained_ckpts/mACCDOA-CNN14-Conformer-0.582.ckpt',
         'log_dir': 'logs',  # save all logs here like loss and metrics
         'checkpoints_dir': 'checkpoints',  # save trained model checkpoints and config
         'output_dir': 'outputs',  # save the predicted files here.
