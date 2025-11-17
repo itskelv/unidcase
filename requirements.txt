@@ -90,7 +90,7 @@ pyaudio>=0.2.11
 torch-tb-profiler>=0.4.0
 
 # Optional: For advanced audio analysis
-essentia>=2.1b6
+# essentia>=2.1b6
 
 # Optional: For code formatting
 black>=22.0.0
