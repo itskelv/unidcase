@@ -18,7 +18,7 @@ def get_baseline_params():
         'net_type': 'SELDnet',
 
         # data params
-        'root_dir': './Unified_DCASE/DCASE_FOA_DATASET',  # parent directory containing the audio, video and labels directory
+        'root_dir': './DCASE_FOA_DATASET',  # parent directory containing the audio, video and labels directory
         'feat_dir': './Unified_DCASE/2025_my_pretrained/features',  # store extracted features here
         'HTS_AT_pretrained_dir': './Unified_DCASE/2025_my_pretrained/PSELD_pretrained_ckpts/mACCDOA-HTSAT-0.567.ckpt',
         'CNN14_Conformer_pretrained_dir': './Unified_DCASE/2025_my_pretrained/PSELD_pretrained_ckpts/mACCDOA-CNN14-Conformer-0.582.ckpt',
