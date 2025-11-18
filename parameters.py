@@ -13,10 +13,10 @@ def get_params(argv='1'):
         finetune_mode=False,  # Finetune on existing model, requires the pretrained model path set - pretrained_model_weights
 
         # INPUT PATH
-        dataset_dir='./data_2024/',  # Base folder containing the foa/mic and metadata folders
+        dataset_dir='../DCASE_FOA_DATASET/',  # Base folder containing the foa/mic and metadata folders
 
         # OUTPUT PATHS
-        feat_label_dir='./data_2024/seld_feat_label/',  # Directory to dump extracted features and labels
+        feat_label_dir='../DCASE_FOA_DATASET/seld_feat_label/',  # Directory to dump extracted features and labels
 
         model_dir='models',  # Dumps the trained models and training curves in this folder
         dcase_output_dir='results',  # recording-wise results are dumped in this path.
